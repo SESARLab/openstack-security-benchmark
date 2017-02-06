@@ -1,0 +1,52 @@
+{
+	"connect_to_server":{
+		"type":"object",
+		"title": "Server connection",
+		"properties":{
+			"hostname":{
+				"type":"string",
+				"title":"Target hostname"
+			},
+			"port":{
+				"type":"number",
+				"title":"Target port"
+			 },
+			"username":{
+				"type":"string",
+				"title":"Username for SSH connection"
+			},
+			"password":{
+				"type":"string",
+				"title":"Password for SSH connection"
+			},
+			"private_key":{
+				"type":"string",
+				"title":"Private RSA key for SSH connection"
+			},
+			"private_key_passphrase":{
+				"type":"string",
+				"title":"Private RSA key passphrase"
+		 	}
+		}
+	},
+	"retrieve_keystone_configuration":{
+		"type":"object",
+		"title": "Keystone configuration",
+		"properties":{
+			"keystone_config_file": {
+				"type": "string",
+				"title": "Configuration file path"
+			}
+		}
+	},
+	"check_ldap":{
+		"type":"object",
+		"title": "LDAP settings",
+		"properties":{
+			"ldap_url": {
+				"type": "string",
+				"title": "LDAP URL"
+			}
+		}
+	}
+}

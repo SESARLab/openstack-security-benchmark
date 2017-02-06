@@ -1,0 +1,68 @@
+{
+	"connect_to_server":{
+		"type":"object",
+		"title": "Server connection",
+		"properties":{
+			"hostname":{
+				"type":"string",
+				"title":"Target hostname"
+			},
+			"port":{
+				"type":"number",
+				"title":"Target port"
+			 },
+			"username":{
+				"type":"string",
+				"title":"Username for SSH connection"
+			},
+			"password":{
+				"type":"string",
+				"title":"Password for SSH connection"
+			},
+			"private_key":{
+				"type":"string",
+				"title":"Private RSA key for SSH connection"
+			},
+			"private_key_passphrase":{
+				"type":"string",
+				"title":"Private RSA key passphrase"
+		 	}
+		}
+	},
+	"check_timesync_enabled":{
+		"type":"object",
+		"title": "Time synchronization daemon",
+		"properties":{
+			"check_ntp": {
+				"type": "boolean",
+				"title": "Check NTPd"
+			},
+			"check_chrony": {
+				"type": "boolean",
+				"title": "Check Chrony"
+			}
+		}
+	},
+	"check_timesync_config":{
+		"type":"object",
+		"title": "Daemon configuration",
+		"properties":{
+			"servers_list": {
+				"type":"array",
+				"items": {
+					"type": "string",
+					"title": "Server address"
+				},
+				"title": "Time synchronization servers"
+			},
+			"ntp_config_file": {
+				"type": "string",
+				"title": "NTPd config file path"
+			},
+			"chrony_config_file": {
+				"type": "string",
+				"title": "Chrony config file path"
+			}
+		}
+	}
+}

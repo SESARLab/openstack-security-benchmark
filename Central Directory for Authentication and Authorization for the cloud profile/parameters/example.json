@@ -1,0 +1,14 @@
+{
+    "connect_to_server": {
+	    "username": "root",
+		"password": "password",
+		"hostname": "127.0.0.1",
+	  	"port": 22
+    },
+    "retrieve_keystone_configuration": {
+        "keystone_config_file": null
+    },
+    "check_ldap": {
+        "ldap_url": "ldap://"
+    }
+}

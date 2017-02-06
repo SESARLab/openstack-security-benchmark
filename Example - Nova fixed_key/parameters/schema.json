@@ -1,0 +1,46 @@
+{
+	"connect_to_server":{
+		"type":"object",
+		"title": "Server connection",
+		"properties":{
+			"hostname":{
+				"type":"string",
+				"title":"Target hostname"
+			},
+			"port":{
+				"type":"number",
+				"title":"Target port"
+			 },
+			"username":{
+				"type":"string",
+				"title":"Username for SSH connection"
+			},
+			"password":{
+				"type":"string",
+				"title":"Password for SSH connection"
+			},
+			"private_key":{
+				"type":"string",
+				"title":"Private RSA key for SSH connection"
+			},
+			"private_key_passphrase":{
+				"type":"string",
+				"title":"Private RSA key passphrase"
+		 	}
+		}
+	},
+	"retrieve_services_configurations":{
+		"type":"object",
+		"title": "Services configuration",
+		"properties":{
+			"nova_config_file": {
+				"type": "string",
+				"title": "Nova configuration file path"
+			},
+            "cinder_config_file": {
+                "type":"string",
+                "title":"Cinder configuration file path"
+            }
+		}
+	}
+}

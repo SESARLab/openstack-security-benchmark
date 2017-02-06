@@ -1,0 +1,23 @@
+{
+	"connect_to_server": {
+	    "username": "root",
+		"password": "password",
+		"hostname": "127.0.0.1",
+	  	"port": 22
+    },
+    "check_timesync_enabled": {
+    	"ntp": true,
+    	"chrony": true
+    },
+    "check_timesync_config": {
+        "ntp_config_file": null,
+        "chrony_config_file": null,
+        "servers_list": [
+            "0.ubuntu.pool.ntp.org",
+            "1.ubuntu.pool.ntp.org",
+            "2.ubuntu.pool.ntp.org",
+            "3.ubuntu.pool.ntp.org",
+            "ntp.ubuntu.com"
+        ]
+    }
+}
