@@ -1,6 +1,6 @@
 # Moon Cloud - Maintain Time Synchronization Services
 
-Profile: (Virtual)
+Profile: Virtual
 
 ToE: All nodes that compose the OpenStack deployment. Control: The control needs to access every node and checks if the time synchronisation is enabled and if it is connected to the same server list as required. The control supports both crony and ntp.
 
