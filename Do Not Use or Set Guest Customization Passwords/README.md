@@ -7,6 +7,7 @@ Control Admin can’t be member of any projects, excepts her owns projects and c
 
 The execution flow φ of control i) consists of two sequen-
 tial operations with the relative Parameters λ as follows.
+
 	1. openstack_connection [os_username, os_password, os_project_id, os_auth_url, os_user_domain_name]: using the admin credentials, control connects to OpenStack API
 	2. checkProject [project_list]: control parses all projects and control admin is member only of the passed projects.
 
@@ -28,5 +29,4 @@ The Environmental settings π are the following:
 
 	- Control must be executed with access to the internal
 network.
-	- The paramiko python library to let the control access
-through ssh.
+	- The paramiko python library to let the control access through ssh.
