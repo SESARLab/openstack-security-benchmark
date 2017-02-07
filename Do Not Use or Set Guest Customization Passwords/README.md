@@ -19,13 +19,13 @@ The Environmental settings π are the following:
 
 
 The execution flow φ of control ii) consists of two sequen- tial operations with the relative Parameters λ as follows.
-	1. connect_to_server [username, password, private_key, private_key_passphrase, hostname, port]: control ac- cesses through ssh the Keystone nodes.
-	2. retrieve_policy_file[path]:controlreadsandparsesthe policy file.
-	3. inspect_policy_file [key, expected_value]: control checks that identity:change_password action is disabled.
+		1. connect_to_server [username, password, private_key, private_key_passphrase, hostname, port]: control ac- cesses through ssh the Keystone nodes.
+		2. retrieve_policy_file[path]:controlreadsandparsesthe policy file.
+		3. inspect_policy_file [key, expected_value]: control checks that identity:change_password action is disabled.
 
 The Environmental settings π are the following:
 
 	- Control must be executed with access to the internal
 network.
-• The paramiko python library to let the control access
+	- The paramiko python library to let the control access
 through ssh.
