@@ -33,6 +33,9 @@
 
 
  [Maintain Time Synchronization Services]:https://github.com/SESARLab/openstack-security-benchmark/tree/master/Maintain%20Time%20Synchronization%20Services
- [Central Directory for Authentication and Authorization for the cloud profile]:https://github.com/SESARLab/openstack-security-benchmark/tree/master/Central%20Directory%20for%20Authentication%20and%20Authorization
- [Do Not Use or Set Guest Customization Passwords for the User Profile]:https://github.com/SESARLab/openstack-security-benchmark/tree/master/Do%20Not%20Use%20or%20Set%20Guest%20Customization%20Passwords%20for%20the%20User%20Profile
+ 
+ [Central Directory for Authentication and Authorization]:https://github.com/SESARLab/openstack-security-benchmark/tree/master/Central%20Directory%20for%20Authentication%20and%20Authorization
+
+ [Do Not Use or Set Guest Customization Passwords]:https://github.com/SESARLab/openstack-security-benchmark/tree/master/Do%20Not%20Use%20or%20Set%20Guest%20Customization%20Passwords
+ 
  [Evaluate Cloud Architecture Dependencies]:https://github.com/SESARLab/openstack-security-benchmark/tree/master/Evaluate%20Cloud%20Architecture%20Dependencies	
