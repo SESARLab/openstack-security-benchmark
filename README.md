@@ -8,23 +8,23 @@
 
  1. [Maintain Time Synchronization Services]
  	- [control.py](https://github.com/SESARLab/openstack-security-benchmark/blob/master/Maintain%20Time%20Synchronization%20Services/control.py)
- 	- parameters
- 	- environment
+ 	- [parameters](https://github.com/SESARLab/openstack-security-benchmark/tree/master/Maintain%20Time%20Synchronization%20Services/parameters)
+ 	- [environment](https://github.com/SESARLab/openstack-security-benchmark/tree/master/Maintain%20Time%20Synchronization%20Services/environment)
 
- 2. [Maintain Time Synchronization Services]
- 	- control.py
- 	- parameters
- 	- environment
+ 2. [Do Not Use or Set Guest Customization Passwords for the User Profile.]
+ 	- [control.py]
+ 	- [parameters]
+ 	- [environment]
 
- 3. [Maintain Time Synchronization Services]
+ 3. [Evaluate Cloud Architecture Dependencies]
  	- control.py
  	- parameters
  	- environment
 
  4. [Central Directory for Authentication and Authorization for the cloud profile]
- 	- control.py
- 	- parameters
- 	- environment
+ 	- [control.py](https://github.com/SESARLab/openstack-security-benchmark/blob/master/Central%20Directory%20for%20Authentication%20and%20Authorization%20for%20the%20cloud%20profile/control.py)
+ 	- [parameters](https://github.com/SESARLab/openstack-security-benchmark/tree/master/Central%20Directory%20for%20Authentication%20and%20Authorization%20for%20the%20cloud%20profile/parameters)
+ 	- [environment](https://github.com/SESARLab/openstack-security-benchmark/tree/master/Central%20Directory%20for%20Authentication%20and%20Authorization%20for%20the%20cloud%20profile/environment)
 
  5. [Control Cinder fixed_key]
  	- control.py
@@ -33,4 +33,5 @@
 
 
 
- [Maintain Time Synchronization Services]:https://github.com/SESARLab/openstack-security-benchmark/tree/master/Maintain%20Time%20Synchronization%20Services	
+ [Maintain Time Synchronization Services]:https://github.com/SESARLab/openstack-security-benchmark/tree/master/Maintain%20Time%20Synchronization%20Services
+ [Central Directory for Authentication and Authorization for the cloud profile]:https://github.com/SESARLab/openstack-security-benchmark/tree/master/Central%20Directory%20for%20Authentication%20and%20Authorization%20for%20the%20cloud%20profile	

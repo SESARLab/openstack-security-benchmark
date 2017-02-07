@@ -1,0 +1,3 @@
+six>=1.10.0
+paramiko==2.1.1
+oslo.config==3.22.
