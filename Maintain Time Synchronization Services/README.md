@@ -10,5 +10,6 @@ The execution flow φ consists of three sequential opera- tions with the relativ
 	2. check_timesync_enabled [ntp,chrony]: control checks, using the init system, if crony or ntp is enabled;
 	3. check_timesync_config [ntp_config_file (optional),chrony_config_file (optional),servers_list]: control checks that servers list in the crony or ntp config file are the same as passed in the parameters.
 The Environmental settings π are the following:
+
 	-Control must be executed with access to the internal network
 	-The paramiko python library to let the control access through ssh.
