@@ -6,8 +6,8 @@
 
  The available recommendation controls are the following:
 
- 1. [Maintain Time Synchronization Services]
- 	- control.py
+ 1. [Maintain Time Synchronization Services](https://github.com/SESARLab/openstack-security-benchmark/tree/master/Maintain%20Time%20Synchronization%20Services)
+ 	- [control.py](https://github.com/SESARLab/openstack-security-benchmark/blob/master/Maintain%20Time%20Synchronization%20Services/control.py)
  	- parameters
  	- environment
 
@@ -21,12 +21,12 @@
  	- parameters
  	- environment
 
- 4. [Maintain Time Synchronization Services]
+ 4. [Central Directory for Authentication and Authorization for the cloud profile]
  	- control.py
  	- parameters
  	- environment
 
- 5. [Maintain Time Synchronization Services]
+ 5. [Control Cinder fixed_key]
  	- control.py
  	- parameters
  	- environment	
