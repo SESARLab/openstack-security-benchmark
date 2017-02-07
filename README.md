@@ -26,10 +26,10 @@
  	- [parameters](https://github.com/SESARLab/openstack-security-benchmark/tree/master/Central%20Directory%20for%20Authentication%20and%20Authorization%20for%20the%20cloud%20profile/parameters)
  	- [environment](https://github.com/SESARLab/openstack-security-benchmark/tree/master/Central%20Directory%20for%20Authentication%20and%20Authorization%20for%20the%20cloud%20profile/environment)
 
- 5. [Control Cinder fixed_key]
- 	- control.py
- 	- parameters
- 	- environment
+ 5. [Control Cinder fixed_key - C<sub>2</sub>]
+ 	- [control.py](https://github.com/SESARLab/openstack-security-benchmark/blob/master/Example%20-%20Nova%20fixed_key/control.py)
+ 	- [parameters](https://github.com/SESARLab/openstack-security-benchmark/tree/master/Example%20-%20Nova%20fixed_key/parameters)
+ 	- [environment](https://github.com/SESARLab/openstack-security-benchmark/tree/master/Example%20-%20Nova%20fixed_key/environment)
 
 
 
