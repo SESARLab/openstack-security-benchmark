@@ -37,5 +37,7 @@
  [Central Directory for Authentication and Authorization]:https://github.com/SESARLab/openstack-security-benchmark/tree/master/Central%20Directory%20for%20Authentication%20and%20Authorization
 
  [Do Not Use or Set Guest Customization Passwords]:https://github.com/SESARLab/openstack-security-benchmark/tree/master/Do%20Not%20Use%20or%20Set%20Guest%20Customization%20Passwords
+
+ [Control Cinder fixed_key - C<sub>2</sub>]:https://github.com/SESARLab/openstack-security-benchmark/tree/master/Example%20-%20Nova%20fixed_key
  
  [Evaluate Cloud Architecture Dependencies]:https://github.com/SESARLab/openstack-security-benchmark/tree/master/Evaluate%20Cloud%20Architecture%20Dependencies	
