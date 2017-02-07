@@ -17,9 +17,8 @@
  	- [environment]
 
  3. [Evaluate Cloud Architecture Dependencies]
- 	- control.py
- 	- parameters
- 	- environment
+ 	- Control<sub>1</sub>
+ 	- Control<sub>2</sub>
 
  4. [Central Directory for Authentication and Authorization for the cloud profile]
  	- [control.py](https://github.com/SESARLab/openstack-security-benchmark/blob/master/Central%20Directory%20for%20Authentication%20and%20Authorization%20for%20the%20cloud%20profile/control.py)
