@@ -12,13 +12,13 @@
  	- [environment](https://github.com/SESARLab/openstack-security-benchmark/tree/master/Maintain%20Time%20Synchronization%20Services/environment)
 
  2. [Do Not Use or Set Guest Customization Passwords]
- 	- [control.py]
- 	- [parameters]
- 	- [environment]
-
+  	- [Control<sub>1</sub>](https://github.com/SESARLab/openstack-security-benchmark/tree/master/Do%20Not%20Use%20or%20Set%20Guest%20Customization%20Passwords/control-1)
+ 	- [Control<sub>2</sub>](https://github.com/SESARLab/openstack-security-benchmark/tree/master/Do%20Not%20Use%20or%20Set%20Guest%20Customization%20Passwords/control-2)
+ 	
  3. [Evaluate Cloud Architecture Dependencies]
- 	- Control<sub>1</sub>
- 	- Control<sub>2</sub>
+	- [control.py]()
+ 	- [parameters]()
+	- [environment]()
 
  4. [Central Directory for Authentication and Authorization]
  	- [control.py](https://github.com/SESARLab/openstack-security-benchmark/blob/master/Central%20Directory%20for%20Authentication%20and%20Authorization/control.py)
