@@ -1,0 +1,16 @@
+{
+	"openstackConfig": {
+	    "OS_USERNAME": "admin",
+		"OS_PASSWORD": "admin1234",
+		"OS_AUTH_URL": "http://192.168.1.72/identity/v3",
+	  	"OS_PROJECT_ID": "7a7fc27b570142109197d78a89e5fdd1",
+        "OS_USER_DOMAIN_NAME":"Default"
+    },
+    "checkProject": {
+        "project": "progetto1",
+        "members": [
+            "511e0d02480a40da8dd6ede52acb3396",
+            "4aa2286d574f495598fe49993457e8cb"
+        ]
+    }
+}

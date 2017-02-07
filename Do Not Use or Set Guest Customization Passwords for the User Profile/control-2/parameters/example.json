@@ -1,0 +1,15 @@
+{
+    "connect_to_server": {
+	    "username": "root",
+		"password": "password",
+		"hostname": "127.0.0.1",
+	  	"port": 22
+    },
+    "retrieve_policy_file": {
+        "path": "/etc/keystone/policy.json"
+    },
+    "inspect_policy_file": {
+        "key": "identity:change_password",
+        "expected_value": "!" 
+    }
+}

@@ -29,17 +29,27 @@
 		 	}
 		}
 	},
-	"retrieve_services_configurations":{
+	"retrieve_policy_file":{
 		"type":"object",
-		"title": "Services configuration",
+		"title": "Policy file",
 		"properties":{
-			"nova_config_file": {
+			"path": {
 				"type": "string",
-				"title": "Nova configuration file path"
+				"title": "File path"
+			}
+		}
+	},
+	"inspect_policy_file":{
+		"type":"object",
+		"title": "Inspection",
+		"properties":{
+			"key": {
+				"type": "string",
+				"title": "Policy name"
 			},
-            "cinder_config_file": {
-                "type":"string",
-                "title":"Cinder configuration file path"
+            "expected_value": {
+                "type":"",
+                "title": "Expected value"
             }
 		}
 	}
